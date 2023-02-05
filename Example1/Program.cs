@@ -13,7 +13,7 @@ int[,] FillMatrix(int rows, int cols)
     {
         for (int j = 0; j < cols; j++)
         {
-            matr[i, j] = rand.Next(0, 100);
+            matr[i, j] = rand.Next(-100, 101);
         }
     }
 
